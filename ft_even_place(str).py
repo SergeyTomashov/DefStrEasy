@@ -5,7 +5,6 @@ def ft_len(str):
     return kol
 
 
-
 def ft_even_place(str):
     str_ = ''
     res = ft_len(str)
@@ -14,4 +13,3 @@ def ft_even_place(str):
             str_ += str[i]
     return str_
 
-print(ft_even_place('hello'))
